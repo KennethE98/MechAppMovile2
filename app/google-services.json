@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "244192689698",
+    "firebase_url": "https://mechapp2-8f75e-default-rtdb.firebaseio.com",
+    "project_id": "mechapp2-8f75e",
+    "storage_bucket": "mechapp2-8f75e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244192689698:android:0af485601525716c63947b",
+        "android_client_info": {
+          "package_name": "com.example.mechappmovile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244192689698-unb73r7r4u20sn0pjknjlrjrs8hj6k5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mechappmovile",
+            "certificate_hash": "8272450113e4b4d1a9ad2889cf69f90d50186f8f"
+          }
+        },
+        {
+          "client_id": "244192689698-if4o92gg2of237sso0qibm3l433tjp9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUpyPJhAHGPi8kLwkBeHI0d_BQQ-9rWRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244192689698-if4o92gg2of237sso0qibm3l433tjp9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
