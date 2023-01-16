@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="90dp"
+            android:elevation="0dp"
+            app:cardElevation="0dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/mecanico"
+                android:scaleType="centerCrop"
+                >
+            </androidx.appcompat.widget.AppCompatImageView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txtNameMecanico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JUAN FLORES"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtDirMecanico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIR : RIOBAMBA - ECUADOR"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtDistanceMecanico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DISTANCIA : 10 KM"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:dividerColor="@color/black"
+        >
+    </com.google.android.material.divider.MaterialDivider>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

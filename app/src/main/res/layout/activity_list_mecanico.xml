@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListMecanicoActivity"
+    >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/ToolbarMecanico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700"
+            app:title="LISTA DE MECANICOS"
+            app:titleTextColor="@color/white"
+            app:titleCentered="true"
+            app:navigationIconTint="@color/white"
+            app:navigationIcon="@drawable/baseline_arrow_back"
+            >
+        </com.google.android.material.appbar.MaterialToolbar>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/SwipeRefreshLayoutMecanicos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RecyclerViewMecanicos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/mecanico_item"
+                >
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <!---->
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/CircularProgressIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="@color/black"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        app:indicatorColor="@color/purple_700"
+        app:trackColor="@color/purple_200"
+        >
+    </com.google.android.material.progressindicator.CircularProgressIndicator>
+
+
+</FrameLayout>

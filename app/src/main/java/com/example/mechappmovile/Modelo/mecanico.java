@@ -1,6 +1,7 @@
 package com.example.mechappmovile.Modelo;
 
 public class mecanico {
+    private String idKey;
     private String full_name;
     private String distancia;
     private String direccion;
@@ -36,6 +37,14 @@ public class mecanico {
         this.full_name = nombreMec;
         this.distancia = distancia;
         this.direccion = direccion;
+    }
+
+    public String getIdKey() {
+        return idKey;
+    }
+
+    public void setIdKey(String idKey) {
+        this.idKey = idKey;
     }
 
     @Override

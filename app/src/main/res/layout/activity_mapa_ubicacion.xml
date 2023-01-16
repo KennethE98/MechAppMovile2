@@ -16,14 +16,18 @@
 
     <Button
         android:id="@+id/btnSOS"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#970000"
+        android:elevation="5dp"
+        android:background="@drawable/boton_border_redondo"
         android:layout_gravity="center|bottom"
         android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_small"
         android:text="@string/help"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        />
 
 </FrameLayout>
